@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\CMakeLists.txt" />
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\CMakeFiles\9dd50e4a76fb087f13a7d400ae902dfd\gflags-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\CMakeFiles\9dd50e4a76fb087f13a7d400ae902dfd\gflags-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\CMakeFiles\9dd50e4a76fb087f13a7d400ae902dfd\gflags-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\CMakeFiles\9dd50e4a76fb087f13a7d400ae902dfd\gflags-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\CMakeFiles\9dd50e4a76fb087f13a7d400ae902dfd\gflags-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\CMakeFiles\9dd50e4a76fb087f13a7d400ae902dfd\gflags-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\CMakeFiles\9dd50e4a76fb087f13a7d400ae902dfd\gflags-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\CMakeFiles\5a5f128d1756786e302d1bdc5700aa50\gflags-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\CMakeFiles\050ad93cda1b985c6df0befc85baff36\gflags.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\CMakeFiles\gflags" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{86D0A892-74B9-3A53-84FE-CB14EBEA3D09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

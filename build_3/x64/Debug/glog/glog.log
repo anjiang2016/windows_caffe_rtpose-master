@@ -1,0 +1,20 @@
+﻿  Building Custom Rule E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/CMakeLists.txt
+  CMake does not need to re-run because E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'glog'
+  Performing download step (git clone) for 'glog'
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): warning MSB4220: 等待当前正在执行的任务“CustomBuild”取消。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): warning MSB4220: 等待当前正在执行的任务“CustomBuild”取消。
+  -- glog download command succeeded.  See also E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/external/glog-prefix/src/glog-stamp/glog-download-*.log
+  No update step for 'glog'
+  No patch step for 'glog'
+  Performing configure step for 'glog'
+  CMake Error at E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/external/glog-prefix/src/glog-stamp/glog-configure-Debug.cmake:16 (message):
+    Command failed: 绯荤粺鎵句笉鍒版寚瀹氱殑鏂囦欢銆?
+     'env' 'CFLAGS=/DWIN32 /D_WINDOWS /W3' 'CXXFLAGS=/DWIN32 /D_WINDOWS /W3 /GR /EHsc' 'E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/external/glog-prefix/src/glog/configure' '--prefix=E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/external/glog-install' '--enable-shared=no' '--enable-static=yes' '--with-gflags=E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/external/gflags-install/lib/..'
+  
+    See also
+  
+      E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/external/glog-prefix/src/glog-stamp/glog-configure-*.log
+  
+  
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): error MSB6006: “cmd.exe”已退出，代码为 1。

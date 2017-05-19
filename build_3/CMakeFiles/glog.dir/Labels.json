@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/glog"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/050ad93cda1b985c6df0befc85baff36/glog.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/5a5f128d1756786e302d1bdc5700aa50/glog-complete.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/a3aacd55c5b73dddc810e3f77f655ec8/glog-install.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/a3aacd55c5b73dddc810e3f77f655ec8/glog-mkdir.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/a3aacd55c5b73dddc810e3f77f655ec8/glog-download.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/a3aacd55c5b73dddc810e3f77f655ec8/glog-update.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/a3aacd55c5b73dddc810e3f77f655ec8/glog-patch.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/a3aacd55c5b73dddc810e3f77f655ec8/glog-configure.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/a3aacd55c5b73dddc810e3f77f655ec8/glog-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "glog" ],
+		"name" : "glog"
+	}
+}

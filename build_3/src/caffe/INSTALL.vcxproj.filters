@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\CMakeFiles\290d142b261a151bd871b44f5cc4c1b7\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{86D0A892-74B9-3A53-84FE-CB14EBEA3D09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

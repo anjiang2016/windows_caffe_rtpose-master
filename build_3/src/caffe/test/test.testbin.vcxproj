@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{CD32E2D0-51AE-35CF-B39F-9BF8647D43E1}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>test.testbin</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\test\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test.testbin.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test.testbin-d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\test\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test.testbin.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test.testbin</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\external\glog-install\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\external\gflags-install\include;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\opencv;C:\Users\HX\Anaconda3\include;C:\Users\HX\Anaconda3\lib\site-packages\numpy\core\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CAFFE_VERSION=1.0.0-rc3;USE_LMDB;USE_LEVELDB;USE_CUDNN;USE_OPENCV;WITH_PYTHON_LAYER;GTEST_USE_OWN_TR1_TUPLE;H5_BUILT_AS_DYNAMIC_LIB=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CAFFE_VERSION=1.0.0-rc3;USE_LMDB;USE_LEVELDB;USE_CUDNN;USE_OPENCV;WITH_PYTHON_LAYER;GTEST_USE_OWN_TR1_TUPLE;H5_BUILT_AS_DYNAMIC_LIB=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\external\glog-install\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\external\gflags-install\include;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\opencv;C:\Users\HX\Anaconda3\include;C:\Users\HX\Anaconda3\lib\site-packages\numpy\core\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\external\glog-install\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\external\gflags-install\include;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\opencv;C:\Users\HX\Anaconda3\include;C:\Users\HX\Anaconda3\lib\site-packages\numpy\core\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Debug\gtest-d.lib;..\..\..\lib\Debug\caffe-d.lib;..\..\..\lib\Debug\proto-d.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_system-vc140-mt-gd-1_61.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_thread-vc140-mt-gd-1_61.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_filesystem-vc140-mt-gd-1_61.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_chrono-vc140-mt-gd-1_61.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_date_time-vc140-mt-gd-1_61.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_atomic-vc140-mt-gd-1_61.lib;..\..\..\external\gflags-install\lib\libgflags.a;..\..\..\external\glog-install\lib\libglog.a;..\..\..\external\gflags-install\lib\libgflags.a;..\..\..\external\glog-install\lib\libglog.a;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\libprotobufd.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\caffehdf5_cpp_D.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\caffehdf5_D.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\cmake\..\lib\caffezlibd.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\lmdb.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\leveldb.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\snappy.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas_device.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudnn.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\x64\vc14\lib\opencv_highgui310d.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\x64\vc14\lib\opencv_videoio310d.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\x64\vc14\lib\opencv_imgcodecs310d.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\x64\vc14\lib\opencv_imgproc310d.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\x64\vc14\lib\opencv_core310d.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\libopenblas.dll.a;C:\Users\HX\Anaconda3\libs\python35.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_python-vc140-mt-gd-1_61.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/lib/Debug/test.testbin-d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/test/Debug/test.testbin-d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\external\glog-install\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\external\gflags-install\include;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\opencv;C:\Users\HX\Anaconda3\include;C:\Users\HX\Anaconda3\lib\site-packages\numpy\core\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CAFFE_VERSION=1.0.0-rc3;USE_LMDB;USE_LEVELDB;USE_CUDNN;USE_OPENCV;WITH_PYTHON_LAYER;GTEST_USE_OWN_TR1_TUPLE;H5_BUILT_AS_DYNAMIC_LIB=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CAFFE_VERSION=1.0.0-rc3;USE_LMDB;USE_LEVELDB;USE_CUDNN;USE_OPENCV;WITH_PYTHON_LAYER;GTEST_USE_OWN_TR1_TUPLE;H5_BUILT_AS_DYNAMIC_LIB=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\external\glog-install\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\external\gflags-install\include;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\opencv;C:\Users\HX\Anaconda3\include;C:\Users\HX\Anaconda3\lib\site-packages\numpy\core\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\external\glog-install\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\external\gflags-install\include;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\opencv;C:\Users\HX\Anaconda3\include;C:\Users\HX\Anaconda3\lib\site-packages\numpy\core\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\..\lib\Release\gtest.lib;..\..\..\lib\Release\caffe.lib;..\..\..\lib\Release\proto.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_system-vc140-mt-1_61.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_thread-vc140-mt-1_61.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_filesystem-vc140-mt-1_61.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_chrono-vc140-mt-1_61.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_date_time-vc140-mt-1_61.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_atomic-vc140-mt-1_61.lib;..\..\..\external\gflags-install\lib\libgflags.a;..\..\..\external\glog-install\lib\libglog.a;..\..\..\external\gflags-install\lib\libgflags.a;..\..\..\external\glog-install\lib\libglog.a;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\libprotobuf.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\caffehdf5_cpp.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\caffehdf5.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\cmake\..\lib\caffezlib.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\lmdb.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\leveldb.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\snappy.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cublas_device.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64\cudnn.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\x64\vc14\lib\opencv_highgui310.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\x64\vc14\lib\opencv_imgcodecs310.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\x64\vc14\lib\opencv_imgproc310.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\x64\vc14\lib\opencv_core310.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\libopenblas.dll.a;C:\Users\HX\Anaconda3\libs\python35.lib;C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\lib\boost_python-vc140-mt-1_61.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/lib/Release/test.testbin.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/test/Release/test.testbin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_im2col_kernel.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object src/caffe/test/CMakeFiles/cuda_compile_1.dir/$(Configuration)/cuda_compile_1_generated_test_im2col_kernel.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\test\CMakeFiles\cuda_compile_1.dir
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/src/caffe/test/CMakeFiles/cuda_compile_1.dir//$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/src/caffe/test/CMakeFiles/cuda_compile_1.dir//$(Configuration)/cuda_compile_1_generated_test_im2col_kernel.cu.obj -D generated_cubin_file:STRING=E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/src/caffe/test/CMakeFiles/cuda_compile_1.dir//$(Configuration)/cuda_compile_1_generated_test_im2col_kernel.cu.obj.cubin.txt -P E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/src/caffe/test/CMakeFiles/cuda_compile_1.dir//cuda_compile_1_generated_test_im2col_kernel.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/src/caffe/test/test_im2col_kernel.cu;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.depend;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.Debug.cmake;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_im2col_kernel.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\test\CMakeFiles\cuda_compile_1.dir\$(Configuration)\cuda_compile_1_generated_test_im2col_kernel.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object src/caffe/test/CMakeFiles/cuda_compile_1.dir/$(Configuration)/cuda_compile_1_generated_test_im2col_kernel.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\test\CMakeFiles\cuda_compile_1.dir
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/src/caffe/test/CMakeFiles/cuda_compile_1.dir//$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)bin" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/src/caffe/test/CMakeFiles/cuda_compile_1.dir//$(Configuration)/cuda_compile_1_generated_test_im2col_kernel.cu.obj -D generated_cubin_file:STRING=E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/src/caffe/test/CMakeFiles/cuda_compile_1.dir//$(Configuration)/cuda_compile_1_generated_test_im2col_kernel.cu.obj.cubin.txt -P E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/src/caffe/test/CMakeFiles/cuda_compile_1.dir//cuda_compile_1_generated_test_im2col_kernel.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/src/caffe/test/test_im2col_kernel.cu;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.depend;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.Release.cmake;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_im2col_kernel.cu;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\test\CMakeFiles\cuda_compile_1.dir\$(Configuration)\cuda_compile_1_generated_test_im2col_kernel.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/src/caffe/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master -BE:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3 --check-stamp-file E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/src/caffe/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/src/caffe/test/CMakeLists.txt;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\CMakeLists.txt;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.depend;C:\Program Files\CMake\share\cmake-3.8\Modules\FindCUDA\run_nvcc.cmake;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/src/caffe/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master -BE:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3 --check-stamp-file E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/src/caffe/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/src/caffe/test/CMakeLists.txt;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\CMakeLists.txt;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.depend;C:\Program Files\CMake\share\cmake-3.8\Modules\FindCUDA\run_nvcc.cmake;E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\test\test_caffe_main.hpp" />
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\test\test_gradient_check_util.hpp" />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_accuracy_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_argmax_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_batch_norm_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_batch_reindex_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_benchmark.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_bias_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_blob.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_caffe_main.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_common.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_concat_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_contrastive_loss_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_convolution_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_crop_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_data_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_data_transformer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_db.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_deconvolution_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_dummy_data_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_eltwise_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_embed_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_euclidean_loss_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_filler.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_filter_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_flatten_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_gradient_based_solver.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_hdf5_output_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_hdf5data_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_hinge_loss_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_im2col_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_image_data_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_infogain_loss_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_inner_product_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_internal_thread.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_io.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_layer_factory.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_lrn_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_lstm_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_math_functions.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_maxpool_dropout_layers.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_memory_data_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_multinomial_logistic_loss_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_mvn_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_net.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_neuron_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_platform.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_pooling_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_power_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_protobuf.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_random_number_generator.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_reduction_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_reshape_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_rnn_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_scale_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_sigmoid_cross_entropy_loss_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_slice_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_softmax_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_softmax_with_loss_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_solver.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_solver_factory.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_split_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_spp_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_stochastic_pooling.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_syncedmem.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_tanh_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_threshold_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_tile_layer.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_upgrade_proto.cpp"  />
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\test\test_util_blas.cpp"  />
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\test\CMakeFiles\cuda_compile_1.dir\$(Configuration)\cuda_compile_1_generated_test_im2col_kernel.cu.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\ZERO_CHECK.vcxproj">
+      <Project>47A97F50-070E-3D67-B7FE-8C7159184EB7</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\caffe.vcxproj">
+      <Project>C04C0FBF-257E-357E-9DEC-7198C7D4A15C</Project>
+      <Name>caffe</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\gflags.vcxproj">
+      <Project>0499560C-ABBB-37B4-A1F5-86EA5B21E675</Project>
+      <Name>gflags</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\glog.vcxproj">
+      <Project>55486A97-DAB9-386C-8B0A-EA52F7768307</Project>
+      <Name>glog</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\gtest\gtest.vcxproj">
+      <Project>11785854-072C-3B64-BD56-ECE4B1FC387D</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\src\caffe\proto.vcxproj">
+      <Project>5A59060C-46FB-3540-AD7F-68B2817BC10D</Project>
+      <Name>proto</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\include\caffe\proto\caffe.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\include\caffe\proto\caffe.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\CMakeLists.txt" />
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\CMakeFiles\f13adab34b796749b0c0ed6ba8d65f0d\caffe.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_3\include\caffe\proto\caffe_pb2.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{29806E5C-EB52-300E-8C0E-9C258DB18612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D281A6FB-9CAA-35BF-BF32-488843FA944C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{86D0A892-74B9-3A53-84FE-CB14EBEA3D09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/gflags"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/050ad93cda1b985c6df0befc85baff36/gflags.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/5a5f128d1756786e302d1bdc5700aa50/gflags-complete.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/9dd50e4a76fb087f13a7d400ae902dfd/gflags-install.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/9dd50e4a76fb087f13a7d400ae902dfd/gflags-mkdir.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/9dd50e4a76fb087f13a7d400ae902dfd/gflags-download.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/9dd50e4a76fb087f13a7d400ae902dfd/gflags-update.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/9dd50e4a76fb087f13a7d400ae902dfd/gflags-patch.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/9dd50e4a76fb087f13a7d400ae902dfd/gflags-configure.rule"
+		},
+		
+		{
+			"file" : "E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_3/CMakeFiles/9dd50e4a76fb087f13a7d400ae902dfd/gflags-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "gflags" ],
+		"name" : "gflags"
+	}
+}
