@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\tools\train_net.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\tools\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{692C9124-7DEC-389B-B461-17AD44F13F04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

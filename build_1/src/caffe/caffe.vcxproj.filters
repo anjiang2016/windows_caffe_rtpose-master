@@ -1,0 +1,1075 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\blob.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\common.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\cpm\layers\imresize_layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\cpm\layers\nms_layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\cpm\util\math_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\data_reader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\data_transformer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\internal_thread.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layer_factory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\absval_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\accuracy_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\argmax_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\base_conv_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\base_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\batch_norm_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\batch_reindex_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\bias_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\bnll_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\concat_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\contrastive_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\conv_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\crop_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_conv_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_lcn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_lrn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_pooling_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_relu_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_sigmoid_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_softmax_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_tanh_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\deconv_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\dropout_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\dummy_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\eltwise_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\elu_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\embed_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\euclidean_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\euclideanmask_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\exp_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\filter_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\flatten_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\hdf5_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\hdf5_output_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\hinge_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\im2col_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\image_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\infogain_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\inner_product_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\input_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\log_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\lrn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\lstm_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\lstm_unit_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\maximum_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\memory_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\multinomial_logistic_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\mvn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\neuron_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\parameter_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\pooling_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\power_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\prelu_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\recurrent_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\reduction_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\relu_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\reshape_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\rnn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\scale_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\sigmoid_cross_entropy_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\sigmoid_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\silence_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\slice_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\softmax_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\softmax_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\split_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\spp_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\tanh_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\threshold_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\tile_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\window_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\net.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\parallel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\solver.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\solvers\adadelta_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\solvers\adagrad_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\solvers\adam_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\solvers\nesterov_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\solvers\rmsprop_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\solvers\sgd_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\syncedmem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\benchmark.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\blocking_queue.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\cudnn.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\db.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\db_leveldb.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\db_lmdb.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\hdf5.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\im2col.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\insert_splits.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\io.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\math_functions.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\signal_handler.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\upgrade_proto.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\blob.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\caffe.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\common.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\cpm\frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\cpm\layers\imresize_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\cpm\layers\nms_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\cpm\util\math_functions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\data_reader.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\data_transformer.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\filler.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\head.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\internal_thread.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layer.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layer_factory.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\absval_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\accuracy_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\argmax_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\base_conv_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\base_data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\batch_norm_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\batch_reindex_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\bias_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\bnll_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\concat_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\contrastive_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\conv_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\crop_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\cudnn_conv_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\cudnn_lcn_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\cudnn_lrn_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\cudnn_pooling_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\cudnn_relu_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\cudnn_sigmoid_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\cudnn_softmax_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\cudnn_tanh_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\deconv_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\dropout_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\dummy_data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\eltwise_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\elu_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\embed_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\euclidean_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\euclideanmask_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\exp_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\filter_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\flatten_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\hdf5_data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\hdf5_output_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\hinge_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\im2col_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\image_data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\infogain_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\inner_product_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\input_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\log_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\lrn_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\lstm_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\maximum_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\memory_data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\multinomial_logistic_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\mvn_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\neuron_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\parameter_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\pooling_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\power_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\prelu_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\python_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\recurrent_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\reduction_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\relu_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\reshape_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\rnn_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\scale_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\sigmoid_cross_entropy_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\sigmoid_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\silence_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\slice_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\softmax_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\softmax_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\split_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\spp_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\tanh_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\threshold_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\tile_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\layers\window_data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\net.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\parallel.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\sgd_solvers.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\solver.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\solver_factory.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\syncedmem.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\benchmark.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\blocking_queue.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\cudnn.h">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\cudnn.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\db.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\db_leveldb.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\db_lmdb.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\device_alternate.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\format.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\hdf5.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\im2col.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\insert_splits.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\io.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\math_functions.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\mkl_alternate.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\rng.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\signal_handler.h">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe\util\upgrade_proto.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\caffe_config.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\CMakeFiles\82f39dea5a721eabaea4f89ed523c20b\caffe.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\cpm\layers\imresize_layer.cu" />
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\cpm\layers\nms_layer.cu" />
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\cpm\util\math_functions.cu" />
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\absval_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\base_data_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\batch_norm_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\batch_reindex_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\bias_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\bnll_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\concat_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\contrastive_loss_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\conv_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\crop_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_conv_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_lcn_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_lrn_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_pooling_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_relu_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_sigmoid_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_softmax_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\cudnn_tanh_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\deconv_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\dropout_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\eltwise_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\elu_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\embed_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\euclidean_loss_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\euclideanmask_loss_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\exp_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\filter_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\hdf5_data_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\hdf5_output_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\im2col_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\inner_product_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\log_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\lrn_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\lstm_unit_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\maximum_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\mvn_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\pooling_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\power_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\prelu_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\recurrent_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\reduction_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\relu_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\scale_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\sigmoid_cross_entropy_loss_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\sigmoid_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\silence_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\slice_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\softmax_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\softmax_loss_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\split_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\tanh_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\threshold_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\layers\tile_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\solvers\adadelta_solver.cu" />
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\solvers\adagrad_solver.cu" />
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\solvers\adam_solver.cu" />
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\solvers\nesterov_solver.cu" />
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\solvers\rmsprop_solver.cu" />
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\solvers\sgd_solver.cu" />
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\im2col.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\util\math_functions.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\src\caffe\proto\caffe.proto">
+      <Filter>Source\Proto</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\cpm\layers\$(Configuration)\cuda_compile_1_generated_imresize_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\cpm\layers\$(Configuration)\cuda_compile_1_generated_nms_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\cpm\util\$(Configuration)\cuda_compile_1_generated_math_functions.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_absval_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_base_data_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_batch_norm_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_batch_reindex_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_bias_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_bnll_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_concat_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_contrastive_loss_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_conv_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_crop_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_conv_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_lcn_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_lrn_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_pooling_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_relu_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_sigmoid_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_softmax_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_tanh_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_deconv_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_dropout_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_eltwise_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_elu_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_embed_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_euclidean_loss_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_euclideanmask_loss_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_exp_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_filter_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_hdf5_data_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_hdf5_output_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_im2col_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_inner_product_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_log_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_lrn_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_lstm_unit_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_maximum_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_mvn_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_pooling_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_power_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_prelu_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_recurrent_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_reduction_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_relu_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_scale_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_sigmoid_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_silence_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_slice_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_softmax_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_softmax_loss_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_split_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_tanh_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_threshold_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_tile_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\solvers\$(Configuration)\cuda_compile_1_generated_adadelta_solver.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\solvers\$(Configuration)\cuda_compile_1_generated_adagrad_solver.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\solvers\$(Configuration)\cuda_compile_1_generated_adam_solver.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\solvers\$(Configuration)\cuda_compile_1_generated_nesterov_solver.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\solvers\$(Configuration)\cuda_compile_1_generated_rmsprop_solver.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\solvers\$(Configuration)\cuda_compile_1_generated_sgd_solver.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\util\$(Configuration)\cuda_compile_1_generated_im2col.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\build_1\src\caffe\CMakeFiles\cuda_compile_1.dir\util\$(Configuration)\cuda_compile_1_generated_math_functions.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include\Util">
+      <UniqueIdentifier>{6D5A4C28-8191-3141-BAE0-E12764CA73C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Util">
+      <UniqueIdentifier>{30A746D2-0692-3EE5-8379-4AE9978548F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Layers">
+      <UniqueIdentifier>{25034825-A2D0-3665-9C10-BCA3A4F7031F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Cuda">
+      <UniqueIdentifier>{580C62C2-2459-3DD9-9588-1B1C1B1D05EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Proto">
+      <UniqueIdentifier>{2B5729DE-986D-376C-ADAA-841DD8FD3B4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{692C9124-7DEC-389B-B461-17AD44F13F04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{44412B44-EB62-3D59-AB7A-1C3A290E9920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8D25332F-C580-38D3-846F-99E81EE020DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{45030A3B-BF44-30EC-888A-42C5E82DCB5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{E99D4EB2-437D-3555-B0EA-4E61C535557A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6D16141F-1DE8-38CA-95EF-613B908ABB87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,102 @@
+﻿  Building Custom Rule E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/python/CMakeLists.txt
+  CMake does not need to re-run because E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_1/python/CMakeFiles/generate.stamp is up-to-date.
+  _caffe.cpp
+C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61\boost/python/detail/caller.hpp(55): warning C4244: “return”: 从“Py_ssize_t”转换到“unsigned int”，可能丢失数据
+C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\google/protobuf/message_lite.h(247): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe/util/io.hpp(49): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\python\caffe\_caffe.cpp(179): warning C4244: “参数”: 从“npy_intp”转换到“int”，可能丢失数据
+E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\python\caffe\_caffe.cpp(424): warning C4003: “import_array1”宏的实参不足
+E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe/blob.hpp(74): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe/blob.hpp(74): note: 编译类 模板 成员函数“int caffe::Blob<Dtype>::num_axes(void) const”时
+          with
+          [
+              Dtype=caffe::Dtype
+          ]
+  E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\python\caffe\_caffe.cpp(215): note: 参见对正在编译的函数 模板 实例化“int caffe::Blob<Dtype>::num_axes(void) const”的引用
+          with
+          [
+              Dtype=caffe::Dtype
+          ]
+  E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\include\caffe/layers/memory_data_layer.hpp(56): note: 参见对正在编译的类 模板 实例化“caffe::Blob<Dtype>”的引用
+          with
+          [
+              Dtype=caffe::Dtype
+          ]
+  E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\python\caffe\_caffe.cpp(155): note: 参见对正在编译的类 模板 实例化“caffe::MemoryDataLayer<caffe::Dtype>”的引用
+C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61\boost/python/raw_function.hpp(55): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\python\caffe\_caffe.cpp(336): note: 参见对正在编译的函数 模板 实例化“boost::python::api::object boost::python::raw_function<boost::python::api::object(__cdecl *)(boost::python::tuple,boost::python::dict)>(F,std::size_t)”的引用
+          with
+          [
+              F=boost::python::api::object (__cdecl *)(boost::python::tuple,boost::python::dict)
+          ]
+C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61\boost/python/suite/indexing/vector_indexing_suite.hpp(176): warning C4267: “+=”: 从“size_t”转换到“long”，可能丢失数据
+  C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61\boost/python/suite/indexing/vector_indexing_suite.hpp(170): note: 编译类 模板 成员函数“unsigned __int64 boost::python::vector_indexing_suite<std::vector<bool,std::allocator<_Ty>>,false,boost::python::detail::final_vector_derived_policies<Container,false>>::convert_index(Container &,PyObject *)”时
+          with
+          [
+              _Ty=bool,
+              Container=std::vector<bool,std::allocator<bool>>
+          ]
+  C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61\boost/python/suite/indexing/indexing_suite.hpp(261): note: 参见对正在编译的函数 模板 实例化“unsigned __int64 boost::python::vector_indexing_suite<std::vector<bool,std::allocator<_Ty>>,false,boost::python::detail::final_vector_derived_policies<Container,false>>::convert_index(Container &,PyObject *)”的引用
+          with
+          [
+              _Ty=bool,
+              Container=std::vector<bool,std::allocator<bool>>
+          ]
+  E:\code\person_pose_estimation\caffe_rtpose-master\caffe_rtpose-master\python\caffe\_caffe.cpp(419): note: 参见对正在编译的类 模板 实例化“boost::python::vector_indexing_suite<std::vector<bool,std::allocator<_Ty>>,false,boost::python::detail::final_vector_derived_policies<Container,false>>”的引用
+          with
+          [
+              _Ty=bool,
+              Container=std::vector<bool,std::allocator<bool>>
+          ]
+C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61\boost/python/suite/indexing/detail/indexing_suite_detail.hpp(605): warning C4267: “+=”: 从“size_t”转换到“long”，可能丢失数据
+  C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61\boost/python/suite/indexing/detail/indexing_suite_detail.hpp(590): note: 编译类 模板 成员函数“void boost::python::detail::slice_helper<Container,DerivedPolicies,boost::python::detail::no_proxy_helper<Container,DerivedPolicies,boost::python::detail::container_element<Container,std::Index,DerivedPolicies>,Index>,Data,Index>::base_get_slice_data(Container &,PySliceObject *,Index &,Index &)”时
+          with
+          [
+              Container=std::vector<bool,std::allocator<bool>>,
+              DerivedPolicies=boost::python::detail::final_vector_derived_policies<std::vector<bool,std::allocator<bool>>,false>,
+              Index=unsigned __int64,
+              Data=std::vector<bool,std::allocator<bool>>::value_type
+          ]
+  C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61\boost/python/suite/indexing/detail/indexing_suite_detail.hpp(695): note: 参见对正在编译的函数 模板 实例化“void boost::python::detail::slice_helper<Container,DerivedPolicies,boost::python::detail::no_proxy_helper<Container,DerivedPolicies,boost::python::detail::container_element<Container,std::Index,DerivedPolicies>,Index>,Data,Index>::base_get_slice_data(Container &,PySliceObject *,Index &,Index &)”的引用
+          with
+          [
+              Container=std::vector<bool,std::allocator<bool>>,
+              DerivedPolicies=boost::python::detail::final_vector_derived_policies<std::vector<bool,std::allocator<bool>>,false>,
+              Index=unsigned __int64,
+              Data=std::vector<bool,std::allocator<bool>>::value_type
+          ]
+  C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61\boost/python/suite/indexing/indexing_suite.hpp(256): note: 参见对正在编译的类 模板 实例化“boost::python::detail::slice_helper<Container,DerivedPolicies,boost::python::detail::no_proxy_helper<Container,DerivedPolicies,boost::python::detail::container_element<Container,std::Index,DerivedPolicies>,Index>,Data,Index>”的引用
+          with
+          [
+              Container=std::vector<bool,std::allocator<bool>>,
+              DerivedPolicies=boost::python::detail::final_vector_derived_policies<std::vector<bool,std::allocator<bool>>,false>,
+              Index=unsigned __int64,
+              Data=std::vector<bool,std::allocator<bool>>::value_type
+          ]
+  C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61\boost/python/suite/indexing/indexing_suite.hpp(253): note: 编译类 模板 成员函数“void boost::python::indexing_suite<Container,DerivedPolicies,false,false,std::vector<bool,std::allocator<_Ty>>::value_type,unsigned __int64,std::vector<_Ty,std::allocator<_Ty>>::value_type>::base_delete_item(Container &,PyObject *)”时
+          with
+          [
+              Container=std::vector<bool,std::allocator<bool>>,
+              DerivedPolicies=boost::python::detail::final_vector_derived_policies<std::vector<bool,std::allocator<bool>>,false>,
+              _Ty=bool
+          ]
+  C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61\boost/python/suite/indexing/indexing_suite.hpp(186): note: 参见对正在编译的函数 模板 实例化“void boost::python::indexing_suite<Container,DerivedPolicies,false,false,std::vector<bool,std::allocator<_Ty>>::value_type,unsigned __int64,std::vector<_Ty,std::allocator<_Ty>>::value_type>::base_delete_item(Container &,PyObject *)”的引用
+          with
+          [
+              Container=std::vector<bool,std::allocator<bool>>,
+              DerivedPolicies=boost::python::detail::final_vector_derived_policies<std::vector<bool,std::allocator<bool>>,false>,
+              _Ty=bool
+          ]
+  C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61\boost/python/suite/indexing/vector_indexing_suite.hpp(50): note: 参见对正在编译的类 模板 实例化“boost::python::indexing_suite<Container,DerivedPolicies,false,false,std::vector<bool,std::allocator<_Ty>>::value_type,unsigned __int64,std::vector<_Ty,std::allocator<_Ty>>::value_type>”的引用
+          with
+          [
+              Container=std::vector<bool,std::allocator<bool>>,
+              DerivedPolicies=boost::python::detail::final_vector_derived_policies<std::vector<bool,std::allocator<bool>>,false>,
+              _Ty=bool
+          ]
+C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\boost-1_61\boost/python/suite/indexing/detail/indexing_suite_detail.hpp(619): warning C4267: “+=”: 从“size_t”转换到“long”，可能丢失数据
+LINK : fatal error LNK1181: 无法打开输入文件“..\lib\Release\caffe.lib”

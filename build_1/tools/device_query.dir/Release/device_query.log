@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/tools/CMakeLists.txt
+  CMake does not need to re-run because E:/code/person_pose_estimation/caffe_rtpose-master/caffe_rtpose-master/build_1/tools/CMakeFiles/generate.stamp is up-to-date.
+  device_query.cpp
+C:\Users\HX\.caffe\dependencies\libraries_v140_x64_py35_1.1.0\libraries\include\google/protobuf/message_lite.h(247): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+LINK : fatal error LNK1181: 无法打开输入文件“..\lib\Release\caffe.lib”
